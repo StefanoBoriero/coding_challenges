@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.stefano.boriero</groupId>
+    <artifactId>coding</artifactId>
+    <packaging>pom</packaging>
+    <version>0.0.1-SNAPSHOT</version>
+    <modules>
+	<module>common</module>
+	<module>merge_sorted_lists</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+	
+    <dependencyManagement>
+	<dependencies>
+	    <!-- https://mvnrepository.com/artifact/org.junit/junit-bom -->
+	    <dependency>
+    	        <groupId>org.junit</groupId>
+    		<artifactId>junit-bom</artifactId>
+    		<version>5.9.2</version>
+    		<type>pom</type>
+	    </dependency>
+	</dependencies>
+    </dependencyManagement>
+</project>
