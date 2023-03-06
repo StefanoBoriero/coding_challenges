@@ -33,4 +33,12 @@ public class ListNode {
 		}
 
 	}
+
+	@Override
+	public String toString() {
+		if (this.next == null) {
+			return "(" + this.val + ")";
+		}
+		return "(" + this.val +") ->  " + this.next.toString();
+	}
 }
