@@ -11,6 +11,7 @@
 	<module>common</module>
 	<module>merge_sorted_lists</module>
         <module>addtwonumbers</module>
+        <module>destinationcity</module>
     </modules>
 
     <properties>
